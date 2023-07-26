@@ -40,7 +40,7 @@ void JOGADA(char JOGADOR) {
     int LINHA, COLUNA;
     do {
         do {
-            printf("\n\nDigite a linha que deseja\n");
+            printf("\n\nVez do jogador  \xAF %c\n\nDigite a linha que deseja\n", JOGADOR);
             scanf("%d", &LINHA);
             if ((LINHA < 1) || (LINHA > 3))
                 printf("Posicao invalida. Informe novamente\n");
